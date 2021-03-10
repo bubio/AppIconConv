@@ -7,9 +7,11 @@
     <SelfContained>true</SelfContained>
     <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
     <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <PublishTrimmed>true</PublishTrimmed>
   </PropertyGroup>
   
   <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true" />
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3" />
   </ItemGroup>
