@@ -80,7 +80,7 @@ class ICNS
             if (string.IsNullOrEmpty(iconType))
             {
                 // 判別不能
-                throw new InvalidDataException();
+                throw new InvalidDataException("Contains images of unneeded size.");
             }
 
             // タイプを追加

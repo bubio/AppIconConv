@@ -8,6 +8,9 @@
     <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
     <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
     <PublishTrimmed>true</PublishTrimmed>
+
+    <Version>0.1.0</Version>
+    <Authors>bubio66@gmail.com</Authors>
   </PropertyGroup>
   
   <ItemGroup>
